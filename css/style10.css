@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Century Gothic;
+}
+
+input[type=text], select, textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 66px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpeg);
+	background-size: cover;
+}
+
+input[type=submit]{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 0.5px solid #fff;
+	transition: 0.5s ease;
+}
+input[type=submit]:hover{
+  background-color: #ffff;
+  color: #000;
+  cursor:pointer;
+}
+
+.container{
+	position: relative;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+label {
+	color:#ffff;
+}
+
+ul{
+	position:relative;
+	list-style-type:none;
+	margin-top: 0px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 0.5px solid #fff;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color:  #fff;
+	color:#000;
+}
+
+ul li.active a{
+	background-color:  #fff;
+	color:#000;
+}
+
+.main {
+	max-width: 1200px;
+	margin-top: auto;
+}

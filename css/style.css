@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float:left;
+	list-style-type:none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 0.5px solid #fff;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color:  #fff;
+	color:#000;
+}
+
+ul li.active a{
+	background-color:  #fff;
+	color:#000;
+}
+
+.logo img{
+	float: right;
+	width:150px;
+	height: auto;
+}
+
+.main {
+	max-width: 1200px;
+	margin-top: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size:70px; 
+}
+
+.title p{
+	color: #fff;
+}
+
+.button{
+	position: absolute;
+	left: 50%;
+	right: 20%;
+	top: 70%;
+	bottom:30%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid#ffff;
+	padding: 10px 30px;
+	color:#ffff;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.btn:hover{
+	background-color:  #fff;
+	color:#000;
+}
+
+
+main{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/inzukidesigns.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+}
+
+
+
+
